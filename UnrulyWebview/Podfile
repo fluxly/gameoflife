@@ -1,0 +1,9 @@
+ENV['SWIFT_VERSION'] = '5'
+target 'UnrulyWebviewTest' do
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+pod "GCDWebServer", "~> 3.0"
+end
+    
+    
